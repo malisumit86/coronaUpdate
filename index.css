@@ -1,0 +1,155 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montaga', serif;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .nav_bak {
+        background-color: gray;
+    }
+    
+    .nav_bak a {
+        color: white;
+        color: black;
+        font-weight: 20;
+    }
+    
+    .back {
+        background-color: grey;
+    }
+    
+    .main_header {
+        max-height: auto;
+        min-height: 600px;
+        margin-bottom: 200px;
+    }
+    
+    .rightside h1 {
+        font-size: 50px;
+    }
+    
+    .img_rot img {
+        animation: imgrot 3s linear infinite;
+    }
+    
+    @keyframes imgrot {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .leftside img {
+        animation: hands 3s linear infinite forwards;
+    }
+    
+    @keyframes hands {
+        0% {
+            transform: scale(.75)
+        }
+        20% {
+            transform: scale(1)
+        }
+        40% {
+            transform: scale(.75)
+        }
+        60% {
+            transform: scale(1)
+        }
+        80% {
+            transform: scale(.75)
+        }
+        100% {
+            transform: scale(1)
+        }
+    }
+    /* corona upadate */
+    
+    .wrapper {
+        /* width: 500px; */
+        height: 550px;
+        /* border: 1px solid #333; */
+        overflow-y: auto;
+    }
+    
+    thead th {
+        background: #fff;
+    }
+    /* 
+    #stick {
+        border: 5px solid black;
+    } */
+    
+    .click:hover {
+        cursor: pointer;
+    }
+    
+    .corona_update {
+        margin: 0 0 25px 0;
+    }
+    
+    .corona_update h3 {
+        color: brown;
+    }
+    
+    .corona_update h1 {
+        text-align: center;
+    }
+    
+    .update {
+        align-items: center;
+    }
+    
+    .abt {
+        text-align: justify;
+    }
+    
+    .sub_section {
+        background-color: #fbfafd;
+    }
+    
+    .info {
+        text-align: justify;
+    }
+    
+    .foot {
+        min-height: 200px;
+        max-height: auto;
+        background-color: black;
+    }
+    
+    .main {
+        width: 300px;
+        height: auto;
+    }
+    
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: .50;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: gray;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+    }
+    
+    #myBtn:hover {
+        background-color: #555;
+    }
+    
+    .vdo span {
+        font-size: 30px;
+    }
