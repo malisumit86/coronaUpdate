@@ -153,3 +153,19 @@
     .vdo span {
         font-size: 30px;
     }
+    
+    .iconv i {
+        color: red;
+    }
+    
+    @media screen and (min-width: 601px) {
+        .example {
+            font-size: 50px;
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .example {
+            font-size: 40px;
+        }
+    }
